@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cypress-open": "node_modules/.bin/cypress open"
+    "cypress-open": "node_modules/.bin/cypress open",
+    "cypress-run-all": "node_modules/.bin/cypress run --record --key d7f0f624-335c-4d34-a515-96812158c1db"
   },
   "author": "Oleksandr Zavhorodnii",
   "license": "ISC",
