@@ -17,3 +17,11 @@
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+
+before(() => {
+    cy.clearCookies();
+});
+  
+after(() => {
+    cy.clearCookies();
+});

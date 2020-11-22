@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "cypress-open": "node_modules/.bin/cypress open",
-    "cypress-run-all-chrome": "node_modules/.bin/cypress run --browser chrome --record --key d7f0f624-335c-4d34-a515-96812158c1db"
+    "cypress-run-all-chrome-prod": "node_modules/.bin/cypress run --config-file prod.cypress.json --browser chrome --record --key d7f0f624-335c-4d34-a515-96812158c1db",
+    "cypress-run-all-chrome-stage": "node_modules/.bin/cypress run --config-file stage.cypress.json --browser chrome --record --key dd785046-60c9-4bfe-95c2-b82602a1dabf"
   },
   "author": "Oleksandr Zavhorodnii",
   "license": "ISC",
