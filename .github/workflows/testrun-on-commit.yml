@@ -1,4 +1,4 @@
-name: testrun-on-commit
+name: testrun-on-pr
 on:
   pull_request:
     types: [opened]
