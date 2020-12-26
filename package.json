@@ -1,18 +1,15 @@
 {
   "name": "cypress-tests",
   "version": "1.0.0",
-  "description": "Britecore automated tests",
+  "description": "test project",
   "main": "index.js",
   "scripts": {
-    "cypress-open": "node_modules/.bin/cypress open",
-    "cypress-run-all-chrome-prod": "node_modules/.bin/cypress run --config-file prod.cypress.json --spec \"cypress/integration/*.spec.js\" --browser chrome --record --key d7f0f624-335c-4d34-a515-96812158c1db",
-    "cypress-run-all-chrome-stage": "node_modules/.bin/cypress run --config-file stage.cypress.json --spec \"cypress/integration/*.spec.js\" --browser chrome --record --key dd785046-60c9-4bfe-95c2-b82602a1dabf"
+    "cy:open": "node_modules/.bin/cypress open",
+    "cy:run": "node_modules/.bin/cypress run --config-file cypress.json --spec \"cypress/integration/*.spec.js\" --browser chrome"
   },
   "author": "Oleksandr Zavhorodnii",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^6.0.0",
-    "faker": "^5.1.0",
-    "strftime": "^0.10.0"
+    "cypress": "^6.2.0"
   }
 }
