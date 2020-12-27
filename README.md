@@ -1,3 +1,9 @@
 # cypresstests
 
-In order to run the tests - execute the following command in the project root dir -> npm run cy:run:chrome
+How to use:
+
+1. Clone the repo
+
+2. Go to the root directory 
+
+3. Run the tests with [npm run cy:run:chrome]
