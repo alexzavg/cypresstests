@@ -8,7 +8,7 @@ How to use:
 
 3. Run -> npm install
 
-Commands fo running tests:
+Commands fo running tests (from package.json):
 
     1. Open the test runner -> npm run cy:open
 
