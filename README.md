@@ -8,4 +8,8 @@ How to use:
 
 3. Run -> npm install
 
-4. Run the tests -> npm run cy:run:chrome
+Commands fo running tests:
+
+    1. Open the test runner -> npm run cy:open
+
+    2. Run the tests -> npm run cy:run:chrome
