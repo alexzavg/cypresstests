@@ -5,9 +5,6 @@ describe('2.2', function() {
         cy.visit('https://test:ObsidianTest9!@public.obsidiandemo.com/obsidian/dashboard/?view=strategic');
 
        /*
-
-       ! Sorry but I can't automate it because I'm a loser that has no skill.
-
         * Create a javascript function returning position and color of every hexagon.
         elem.getBoundingClientRect()
 
